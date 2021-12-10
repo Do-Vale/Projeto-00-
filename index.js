@@ -4,14 +4,30 @@ function myFunction() {
   document.getElementById("email1").value = "";
   document.getElementById("password1").value = ""; 
   document.getElementById("emailHelp").style.visibility = "hidden";
-  document.getElementById("myBtn").disabled = true;
-  document.getElementById("demo").innerHTML = " Vazooou!";  
- }
+  document.getElementById("myBtn").style.visibility = "hidden";
+  document.getElementById("demo").innerHTML = "Vazooou!";
+  document.getElementById("myBtn2").style.display = "block";  
+}
 
+ function resetarDiv() {
+  document.getElementById("email1").value = "";
+  document.getElementById("email2").value = "";
+  document.getElementById("password1").value = "";
+  document.getElementById("password2").value = "";
+  document.getElementById("myBtn2").style.display = "none";
+  document.getElementById("myBtn").style.visibility = "visible";
+  document.getElementById("demo").innerHTML = " ";
+  document.getElementById("emailHelp").style.visibility = "visible";
+}
 
 /* Remover o elemento selecionado do documento
 var myobj = document.getElementById("demo");
 myobj.remove();
+
+Alterar o DISPLAY para block
+document.getElementById("myBtn2").style.display = "block";
+document.getElementById('idDoBotao').style.display = 'none';
+document.getElementById('idDoBotao').style.display = 'inline';
 
 
 function changeVisibility() {

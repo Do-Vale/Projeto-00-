@@ -17,10 +17,15 @@
         background-color: #cccccc;
       }
 
-        span   {
+      span   {
           background-color: black;
 
         }
+      #myBtn2 {
+        display: none;
+      }
+
+      
       </style>
 
 
@@ -62,21 +67,32 @@
             <label for="exampleInputPassword1 " class="form-label "></label>
             <input type="stringer" class="form-control mt-4" id="password2">
 
-            <p id="demo" class= ""></p>
+              <p id="demo" class= ""></p>
 
+          </fieldset>
+        </div>
+
+        <div>
+
+        <button  id="myBtn2" onclick= "resetarDiv()" type="button" class="btn btn-outline-dark col-12 mt-2">recomeçar!</button>
+    
+        </div>
+    
           
 
             <!-- inserir novo botão para liberar o teste novamente
                         
             <button onclick="enableBtn()" class="btn btn-outline-primary btn-sm mt-0">Enable "My Button"</button> 
             
-            -->
-          </fieldset>
-          
+              --> 
         
           </div>
                        
       </div>
+  
+
+
+
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" defer></script>
