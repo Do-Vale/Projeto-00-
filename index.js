@@ -1,12 +1,14 @@
 function myFunction() {
   document.getElementById("email2").value = document.getElementById("email1").value;
   document.getElementById("password2").value = document.getElementById("password1").value;
-  document.getElementById("email1").value = "";
-  document.getElementById("password1").value = ""; 
+  document.getElementById("email1").value = "Clique em recomeçar!";
+  document.getElementById("password1").value = "Clique em recomeçar!"; 
   document.getElementById("emailHelp").style.visibility = "hidden";
   document.getElementById("myBtn").style.visibility = "hidden";
   document.getElementById("demo").innerHTML = "Vazooou!";
-  document.getElementById("myBtn2").style.display = "block";  
+  document.getElementById("myBtn2").style.display = "block"; 
+  document.getElementById("email1").disabled = true;
+  document.getElementById("password1").disabled = true;
 }
 
  function resetarDiv() {
@@ -18,6 +20,8 @@ function myFunction() {
   document.getElementById("myBtn").style.visibility = "visible";
   document.getElementById("demo").innerHTML = " ";
   document.getElementById("emailHelp").style.visibility = "visible";
+  document.getElementById("email1").disabled = false;
+  document.getElementById("password1").disabled = false;
 }
 
 /* Remover o elemento selecionado do documento
