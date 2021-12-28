@@ -1,2 +1,2 @@
-# Exercícios Bootcamp Dio
+# Exercício Bootcamp Dio
 
