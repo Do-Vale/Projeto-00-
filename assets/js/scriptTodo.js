@@ -35,7 +35,7 @@
               
             // appending the created text to 
             // the created label tag 
-            label.appendChild(document.createTextNode(ddemanda));
+            label.appendChild(document.createTextNode(demanda));
               
             // appending the checkbox
             // and label to div
