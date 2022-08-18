@@ -1,4 +1,4 @@
 # Exercício Bootcamp Dio
 
-<strong>-Criando To-do List <br />
--Criando Contador <strong>
+<strong>-To-do List <br />
+-Contador <strong>
